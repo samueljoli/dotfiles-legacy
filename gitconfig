@@ -2,6 +2,7 @@
   templatedir = ~/.git_template
 [push]
   default = current
+	followTags = true
 [color]
   ui = auto
 [alias]
@@ -27,3 +28,6 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[user]
+	email = sjoli@xogrp.com
+	name = sjoli

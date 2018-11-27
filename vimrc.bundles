@@ -16,6 +16,12 @@ call plug#begin('~/.vim/bundle')
 
 " Define bundles via Github repos
 Plug 'morhetz/gruvbox'
+Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'mxw/vim-jsx'
+Plug 'vim-scripts/vim-auto-save'
+Plug 'bling/vim-airline'
+Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'scrooloose/nerdtree'
 Plug 'christoomey/vim-run-interactive'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -38,6 +44,17 @@ Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
+
+Plug 'ervandew/supertab'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
+Plug 'justinj/vim-react-snippets'
+Plug 'bentayloruk/vim-react-es6-snippets'
+Plug 'vim-scripts/Jasmine-snippets-for-snipMate'
+Plug 'heavenshell/vim-prettier'
+Plug 'martinda/Jenkinsfile-vim-syntax'
 
 if g:has_async
   Plug 'w0rp/ale'
