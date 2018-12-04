@@ -138,6 +138,11 @@ inoremap <S-Tab> <C-n>
 " Switch between the last two files
 nnoremap <Leader><Leader> <C-^>
 
+" Go to visual mode with two taps to spacebar ( leader )
+inoremap ii <Esc>
+
+
+
 " Get off my lawn
 nnoremap <Left> :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>

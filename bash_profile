@@ -119,6 +119,26 @@ function wrk {
   cd /Users/$USER/Development/workspace$@
 }
 
+function api {
+  cd /Users/$USER/Development/workspace/the-bash-api$@
+}
+
+function plugin {
+  cd /Users/$USER/Development/workspace/hapi-bash-api$@
+}
+
+function web {
+  cd /Users/$USER/Development/workspace/the-bash-web$@
+}
+
+function admin {
+  cd /Users/$USER/Development/workspace/the-bash-admin$@
+}
+
+function hub {
+  cd /Users/$USER/Development/workspace/the-bash-data-hub$@
+}
+
 function oss {
   cd /Users/$USER/Development/opensource$@
 }
