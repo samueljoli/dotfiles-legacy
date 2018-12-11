@@ -87,6 +87,9 @@ set list listchars=tab:»·,trail:·,nbsp:·
 " Use one space, not two, after punctuation.
 set nojoinspaces
 
+" Buffer search
+nmap ; :CtrlPBuffer<CR>
+
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 nmap <C-b> "+p<CR>
