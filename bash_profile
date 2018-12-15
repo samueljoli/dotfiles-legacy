@@ -119,6 +119,14 @@ function wrk {
   cd /Users/$USER/Development/workspace$@
 }
 
+function personal {
+  cd /Users/$USER/Development/personal$@
+}
+
+function dotfiles {
+  cd ~/dotfiles
+}
+
 function api {
   cd /Users/$USER/Development/workspace/the-bash-api$@
 }
