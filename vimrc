@@ -3,6 +3,8 @@ let mapleader = " "
 
 colorscheme gruvbox
 
+set exrc " enable project specfic vimrc files
+
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
 set nowritebackup
@@ -209,3 +211,5 @@ set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2
+
+set secure " disable unsafe commands in your project-specific .vimrc files
