@@ -45,6 +45,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 Plug 'xolox/vim-notes'
+Plug 'xolox/vim-misc'
 
 Plug 'ervandew/supertab'
 Plug 'MarcWeber/vim-addon-mw-utils'
