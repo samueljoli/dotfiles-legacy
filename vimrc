@@ -206,6 +206,9 @@ let g:airline_powerline_fonts = 1
 
 let g:jsx_ext_required = 0
 
+" Vim notes confiurations
+let g:notes_directories = ['~/Development/notes']
+
 " Enable folding
 set foldmethod=indent
 set foldnestmax=10
