@@ -2,7 +2,7 @@
 let mapleader = " "
 
 " set the prefix for notes
-let g:notes_suffix = '.txt'
+let g:notes_suffix = '.md'
 
 colorscheme gruvbox
 
