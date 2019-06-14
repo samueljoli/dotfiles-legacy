@@ -1,6 +1,9 @@
 " Leader
 let mapleader = " "
 
+" set the prefix for notes
+let g:notes_suffix = '.txt'
+
 colorscheme gruvbox
 
 set exrc " enable project specfic vimrc files
