@@ -119,6 +119,10 @@ function wrk {
   cd /Users/$USER/Development/workspace$@
 }
 
+function reg {
+  cd /Users/$USER/Development/workspace/Registry$@
+}
+
 function personal {
   cd /Users/$USER/Development/personal$@
 }
@@ -277,6 +281,9 @@ function docker-clean {
 
   # Hapi
   alias hapi="makemehapi"
+
+  # Npm
+  alias npm_all="npm list -g --depth 0"
 
   # Marketplace app
   alias rs="rails s -p3333 webrick"
