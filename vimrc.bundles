@@ -46,6 +46,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'vim-scripts/tComment'
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
+Plug 'leafgarland/typescript-vim'
 
 Plug 'ervandew/supertab'
 Plug 'MarcWeber/vim-addon-mw-utils'
@@ -56,6 +57,7 @@ Plug 'justinj/vim-react-snippets'
 Plug 'bentayloruk/vim-react-es6-snippets'
 Plug 'vim-scripts/Jasmine-snippets-for-snipMate'
 Plug 'heavenshell/vim-prettier'
+Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 
 if g:has_async
