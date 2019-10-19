@@ -20,6 +20,7 @@ set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 set mouse=a       " Allow scrolling using mousepad
+set tags^=./.git/tags; " update Fugitive tag support
 syntax on
 syntax enable
 

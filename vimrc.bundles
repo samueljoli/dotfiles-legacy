@@ -47,6 +47,7 @@ Plug 'vim-scripts/tComment'
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
 Plug 'leafgarland/typescript-vim'
+Plug 'fatih/vim-go'
 
 Plug 'ervandew/supertab'
 Plug 'MarcWeber/vim-addon-mw-utils'
