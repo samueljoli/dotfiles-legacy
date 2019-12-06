@@ -256,6 +256,8 @@ function docker-clean {
   alias gcm="git commit -m"
   alias gco="git checkout"
   alias gclean="git branch --merged master | grep -v '^\*\|  master' | xargs -n 1 git branch -d"
+  alias gmend="git commit --amend --no-edit"
+  alias gmendf="git commit --amend --no-edit; git push -f"
 
   # SQL
   alias sql="sqlite3"
