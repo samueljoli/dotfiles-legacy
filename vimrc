@@ -77,6 +77,9 @@ augroup ale
   endif
 augroup END
 
+" Enable viewing images in Vim using imgcat script from iTerm
+:autocmd BufEnter *.png,*.jpg,*gif exec "! ~/bin/imgcat ".expand("%") | :bw
+
 " When the type of shell script is /bin/sh, assume a POSIX-compatible
 " shell for syntax highlighting purposes.
 let g:is_posix = 1
