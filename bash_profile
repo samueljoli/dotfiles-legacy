@@ -79,7 +79,7 @@
     # storing the binaries (programs) that our system would want.
     # Also, Homebrew adopts this convetion so things installed via Homebrew
     # get symlinked into /usr/local
-    export PATH="/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/local/opt/sqlite/bin:$PATH"
+    export PATH="~/bin:/usr/local:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/local/opt/sqlite/bin:$PATH"
     export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin"
     # Hint: You can interpolate a variable into a string by using the $VARIABLE notation as below.
 
