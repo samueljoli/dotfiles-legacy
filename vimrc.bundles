@@ -60,6 +60,9 @@ Plug 'vim-scripts/Jasmine-snippets-for-snipMate'
 Plug 'heavenshell/vim-prettier'
 Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'martinda/Jenkinsfile-vim-syntax'
+Plug 'preservim/nerdcommenter'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
 
 if g:has_async
   Plug 'w0rp/ale'
