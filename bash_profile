@@ -45,6 +45,13 @@
     # Node Path from Homebrew I believe
     export NODE_PATH="/usr/local/lib/node_modules:$NODE_PATH"
 
+    # Golang Development
+    # Set GOPATH
+    export GOPATH=$HOME/go-dev
+
+    # Set up bin path to main go dev workspace
+    export PATH=$HOME/go-dev/bin:$PATH
+
     # Those NODE & Python Paths won't break anything even if you
     # don't have NODE or Python installed. Eventually you will and
     # then you don't have to update your bash_profile
@@ -113,6 +120,10 @@ function desktop {
 
 function dev {
   cd /Users/$USER/Development/$@
+}
+
+function go-dev {
+cd /Users/$USER/go-dev/$@
 }
 
 function wrk {
@@ -312,7 +323,7 @@ function docker-clean {
     . `brew --prefix`/etc/bash_completion
   fi
 
-  source $HOME/.bashrc
+  #source $HOME/.bashrc
   # source the colors needed for gruvbox
   source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette_osx.sh"
 
