@@ -126,85 +126,19 @@ function go-dev {
 cd /Users/$USER/go-dev/$@
 }
 
-function wrk {
-  cd /Users/$USER/Development/workspace$@
-}
-
-function reg {
-  cd /Users/$USER/Development/workspace/Registry$@
-}
-
-function personal {
-  cd /Users/$USER/Development/personal$@
-}
-
 function dotfiles {
   cd ~/dotfiles
-}
-
-function api {
-  cd /Users/$USER/Development/workspace/the-bash-api$@
-}
-
-function plugin {
-  cd /Users/$USER/Development/workspace/hapi-bash-api$@
-}
-
-function web {
-  cd /Users/$USER/Development/workspace/the-bash-web$@
-}
-
-function admin {
-  cd /Users/$USER/Development/workspace/the-bash-admin$@
-}
-
-function hub {
-  cd /Users/$USER/Development/workspace/the-bash-data-hub$@
 }
 
 function oss {
   cd /Users/$USER/Development/opensource$@
 }
 
-function xo {
-  cd /Users/$USER/Development/xo
+# function for seeing what's running on a specific port
+function sniff {
+  lsof -i TCP:$1
 }
 
-function mp {
-  cd /Users/$USER/Development/xo/Planning/Marketplace/$@
-}
-
-function inbox {
-  cd /Users/$USER/Development/Planning/inbox$@
-}
-
-function lp {
-  cd /Users/$USER/Development/LocalPartners/$@
-}
-
-function tkp {
-  cd /Users/$USER/Development/Experimentation/TheKnotPro-ios/TheKnotProMessenger/$@
-}
-
-function cafe {
-  cd /Users/sjoli/Development/Experimentation/Cafe-195/Cafe195/$@
-}
-
-function plugins {
-  cd /Users/sjoli/Development/xo/Local/Plugins/$@
-}
-
-function helpers {
-  cd /Users/sjoli/Development/xo/Local/Helpers/$@
-}
-
-function services {
-  cd /Users/sjoli/Development/xo/Local/Services/$@
-}
-
-function xo-helpers {
-  cd /Users/sjoli/Development/Local/Marketplace_API/Helpers/$@
-}
 # A function to easily grep for a matching process
 # USE: psg postgres
 function psg {
