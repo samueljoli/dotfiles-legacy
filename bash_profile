@@ -126,6 +126,22 @@ function go-dev {
 cd /Users/$USER/go-dev/$@
 }
 
+function wrk {
+  cd /Users/$USER/Development/workspace$@
+}
+
+function reg {
+  cd /Users/$USER/Development/workspace/Registry$@
+}
+
+function tk {
+  cd /Users/$USER/Development/Tk
+}
+
+function personal {
+  cd /Users/$USER/Development/personal$@
+}
+
 function dotfiles {
   cd ~/dotfiles
 }

@@ -63,6 +63,7 @@ Plug 'martinda/Jenkinsfile-vim-syntax'
 Plug 'preservim/nerdcommenter'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
+Plug 'dense-analysis/ale'
 
 if g:has_async
   Plug 'w0rp/ale'

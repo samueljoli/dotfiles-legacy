@@ -31,3 +31,5 @@
 [user]
 	email = sjoli@xogrp.com
 	name = sjoli
+[pull]
+	rebase = false

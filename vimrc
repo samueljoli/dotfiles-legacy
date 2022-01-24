@@ -77,6 +77,12 @@ augroup ale
   endif
 augroup END
 
+" lint on auto save when using dense-analysis/ale
+let b:ale_fixers = ['prettier', 'eslint']
+let g:ale_fix_on_save = 1
+
+let g:snipMate = { 'snippet_version' : 1 }
+
 " Enable viewing images in Vim using imgcat script from iTerm
 :autocmd BufEnter *.png,*.jpg,*gif exec "! ~/bin/imgcat ".expand("%") | :bw
 
@@ -131,6 +137,9 @@ set colorcolumn=+1
 set number
 set numberwidth=5
 set relativenumber
+
+" GF (Go to file)
+set path+=$PWD/node_modules " Enable jumping into node_modules
 
 " Tab completion
 " will insert tab at beginning of line,
@@ -194,6 +203,12 @@ set spellfile=$HOME/.vim-spell-en.utf-8.add
 
 " Autocomplete with dictionary words when spell check is on
 set complete+=kspell
+
+" spell check lang
+set spell spelllang=en_us
+
+" auto spellcheck js files
+autocmd BufRead,BufNewFile *.js setlocal spell
 
 " Always use vertical diffs
 set diffopt+=vertical

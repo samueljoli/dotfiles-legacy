@@ -1,7 +1,19 @@
-#!/bin/sh
+#!/bin/bash
 
-local_hook="$HOME"/.git_template.local/hooks/pre-push
-
-if [ -f "$local_hook" ]; then
-  . "$local_hook"
-fi
+protected_branch='production'
+# check each branch being pushed
+while read local_ref local_sha remote_ref remote_sha
+do
+remote_branch=$(echo $remote_ref | sed -e 's,.*/\(.*\),\1,')
+if [ $protected_branch = $remote_branch ]
+    then
+    read -p "You're about to push production, is that what you intended? [y|n] " -n 1 -r < /dev/tty
+        echo
+        if echo $REPLY | grep -E '^[Yy]$' > /dev/null
+        then
+            exit 0 # push will execute
+        fi
+        exit 1 # push will not execute
+        fi
+    done
+    exit 0
